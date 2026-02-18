@@ -3,7 +3,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqs = [
   { q: "Are you licensed and insured?", a: "Absolutely. We are fully licensed Florida electricians (License #EC13012345) with comprehensive general liability and workers' compensation insurance." },
-  { q: "Do you offer emergency electrical services?", a: "Yes! We offer 24/7 emergency electrical services throughout Miami-Dade County. Call us anytime at (844) 987-9393 for urgent electrical issues." },
+  { q: "Do you offer emergency electrical services?", a: <>Yes! We offer 24/7 emergency electrical services throughout Miami-Dade County. Call us anytime at <a href="tel:+18449879393" className="text-primary font-bold hover:underline">(844) 987-9393</a> for urgent electrical issues.</> },
   { q: "How much does an electrical panel upgrade cost?", a: "Panel upgrades typically range from $1,500 to $4,000 depending on the amperage and complexity. We provide free estimates with transparent, upfront pricing — no hidden fees." },
   { q: "Do you work on commercial properties?", a: "Yes, we serve both residential and commercial clients including offices, retail spaces, restaurants, and multi-family buildings across Miami." },
   { q: "How quickly can you schedule a service call?", a: "We offer same-day service for most requests. For non-emergency jobs, we can typically schedule within 24-48 hours." },

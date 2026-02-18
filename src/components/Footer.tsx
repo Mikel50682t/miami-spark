@@ -11,7 +11,7 @@ const Footer = () => (
 
         <div className="flex flex-col items-center gap-2 text-sm text-section-dark-foreground/60">
           <span className="flex items-center gap-2"><MapPin className="h-4 w-4 text-primary" /> 1410 SW 22nd Ave, Miami, FL 33145</span>
-          <span className="flex items-center gap-2"><Phone className="h-4 w-4 text-primary" /> (844) 987-9393</span>
+          <a href="tel:+18449879393" className="flex items-center gap-2 hover:text-primary transition-colors"><Phone className="h-4 w-4 text-primary" /> (844) 987-9393</a>
         </div>
 
         <p className="text-sm text-section-dark-foreground/40 md:text-right">
