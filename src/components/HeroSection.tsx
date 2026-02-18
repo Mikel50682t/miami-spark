@@ -53,7 +53,7 @@ const HeroSection = () => {
           <div className="flex flex-wrap gap-6 text-sm text-section-dark-foreground/70">
             <span className="flex items-center gap-2"><MapPin className="h-4 w-4 text-primary" /> 1410 SW 22nd Ave, Miami</span>
             <span className="flex items-center gap-2"><Clock className="h-4 w-4 text-primary" /> Open Until 8 PM</span>
-            <span className="flex items-center gap-2"><Phone className="h-4 w-4 text-primary" /> (844) 987-9393</span>
+            <a href="tel:+18449879393" className="flex items-center gap-2 hover:text-primary transition-colors"><Phone className="h-4 w-4 text-primary" /> (844) 987-9393</a>
           </div>
         </motion.div>
 
