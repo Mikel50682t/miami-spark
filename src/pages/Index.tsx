@@ -6,7 +6,7 @@ import GallerySection from "@/components/GallerySection";
 import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
-import FloatingCallButton from "@/components/FloatingCallButton";
+
 
 const Index = () => (
   <div className="min-h-screen">
@@ -18,7 +18,7 @@ const Index = () => (
     <FAQSection />
     <CTASection />
     <Footer />
-    <FloatingCallButton />
+    
   </div>
 );
 
